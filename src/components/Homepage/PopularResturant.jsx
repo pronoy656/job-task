@@ -198,16 +198,16 @@ export default function PopularResturant() {
             </div>
           </div>
         </div>
-        <div className="absolute -left-20 top-[153px]">
+        <div className="absolute -left-20 top-[255px]">
           <img
-            className="w-[48px] h-[48px] bg-white shadow-lg rounded-full"
+            className="w-[44px] h-[44px] bg-white shadow-lg rounded-full"
             src="SVG.png"
             alt=""
           />
         </div>
-        <div className="absolute -right-20 top-[153px]">
+        <div className="absolute -right-20 top-[255px]">
           <img
-            className="w-[48px] h-[48px] bg-white shadow-lg rounded-full p-2"
+            className="w-[44px] h-[44px] bg-white shadow-lg rounded-full p-2"
             src="Vector (2).png"
             alt=""
           />
