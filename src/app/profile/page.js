@@ -1,7 +1,10 @@
 import Profilepage from '@/components/Profilepage/Profilepage'
-import React from 'react'
+
 
 export default function page() {
+
+  
+
   return (
     <div  
     style={{
