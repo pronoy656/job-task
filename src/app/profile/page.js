@@ -1,12 +1,14 @@
+import Profilepage from '@/components/Profilepage/Profilepage'
 import React from 'react'
 
 export default function page() {
   return (
-    <div>
-      <h1 className='text-9xl font-extrabold
-      '>
-        This is the profile page
-      </h1>
+    <div  
+    style={{
+          background:
+            "linear-gradient(to left, rgba(253, 237, 229, 2), rgba(254, 140, 79, 0.1), rgba(254, 140, 79, 0.1))",
+        }}>   
+    <Profilepage/>
     </div>
   )
 }
