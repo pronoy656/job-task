@@ -1,5 +1,13 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Shared/Footer";
+import { Rancho } from 'next/font/google';
+
+const rancho = Rancho({
+  subsets: ['latin'],
+  weight: '400', // Rancho only supports 400
+});
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,6 +31,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,0 +1,136 @@
+import React from "react";
+import { Lobster_Two } from "next/font/google";
+
+const lobsterTwo = Lobster_Two({
+  subsets: ["latin"],
+  weight: ["400", "700"], // choose weight(s) you need
+  style: ["normal", "italic"], // optional: if you want italic too
+});
+
+export default function Category() {
+  return (
+    <div
+      className="h-[422px]"
+      style={{
+        background:
+          "linear-gradient(to right, rgba(253, 237, 229, 0), rgba(254, 140, 79, 0.1), rgba(254, 140, 79, 0.2))",
+      }}
+    >
+      <div className="max-w-7xl mx-auto mt-[65px] relative">
+        <h1 className={`${lobsterTwo.className} text-[20px] font-400`}>
+          category
+        </h1>
+        <h1 className="text-[40px] font-600">
+          Popular <span className="text-[#ED6923]">Category</span>
+        </h1>
+        <div className="flex justify-between mt-14">
+          {/* DOnuts */}
+          <div className="w-[138.47px] h-[128px] bg-[#E1B47B] rounded-[8px] relative">
+            <div className="absolute top-[-15px]">
+              <img
+                className="w-[138.94px] h-[93.91px] "
+                src="Donut.png"
+                alt=""
+              />
+              <h1 className="text-[20px] font-medium text-white text-center">
+                Donuts
+              </h1>
+            </div>
+          </div>
+          {/* Pizza */}
+          <div className="w-[138.47px] h-[128px] bg-[#FA8D1C] rounded-[8px] relative">
+            <div className="absolute top-[-22px]">
+              <img
+                className="w-[138.94px] h-[93.91px] "
+                src="Pizza.png"
+                alt=""
+              />
+              <h1 className="text-[20px] font-medium text-white text-center">
+                Pizza
+              </h1>
+            </div>
+          </div>
+          {/* kabab */}
+          <div className="w-[138.47px] h-[128px] bg-[#FD683E] rounded-[8px] relative">
+            <div className="absolute top-[-9px]">
+              <img
+                className="w-[134.94px] h-[93.91px] "
+                src="Kabab.png"
+                alt=""
+              />
+              <h1 className="text-[20px] font-medium text-white text-center">
+                Kebab
+              </h1>
+            </div>
+          </div>
+          {/* Burger */}
+          <div className="w-[138.47px] h-[128px] bg-[#FF8000] rounded-[8px] relative">
+            <div className="absolute top-[-15px]">
+              <img
+                className="w-[138.94px] h-[93.91px] "
+                src="Burger.png"
+                alt=""
+              />
+              <h1 className="text-[20px] font-medium text-white text-center">
+                Burger
+              </h1>
+            </div>
+          </div>
+          {/* Sandwich  */}
+          <div className="w-[138.47px] h-[128px] bg-[#F75E28] rounded-[8px] relative">
+            <div className="absolute top-[-15px]">
+              <img
+                className="w-[138.94px] h-[93.91px] "
+                src="Sandwitch.png"
+                alt=""
+              />
+              <h1 className="text-[20px] font-medium text-white text-center">
+                Sandwich 
+              </h1>
+            </div>
+          </div>
+          {/* Shawarma */}
+          <div className="w-[138.47px] h-[128px] bg-[#FCBD00] rounded-[8px] relative">
+            <div className="absolute top-[-15px]">
+              <img
+                className="w-[138.94px] h-[93.91px] "
+                src="Susi.png"
+                alt=""
+              />
+              <h1 className="text-[20px] font-medium text-white text-center">
+                Shawarma
+              </h1>
+            </div>
+          </div>
+          {/* Taco */}
+          <div className="w-[138.47px] h-[128px] bg-[#DA270F] rounded-[8px] relative">
+            <div className="absolute top-[-15px]">
+              <img
+                className="w-[138.94px] h-[93.91px] "
+                src="Anthon.png"
+                alt=""
+              />
+              <h1 className="text-[20px] font-medium text-white text-center">
+                Taco
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className="absolute -left-20 top-[153px]">
+          <img
+            className="w-[48px] h-[48px] bg-white shadow-lg rounded-full"
+            src="SVG.png"
+            alt=""
+          />
+        </div>
+        <div className="absolute -right-20 top-[153px]">
+          <img
+            className="w-[48px] h-[48px] bg-white shadow-lg rounded-full p-2"
+            src="Vector (2).png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
