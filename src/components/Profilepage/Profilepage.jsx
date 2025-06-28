@@ -109,9 +109,9 @@ export default function Profilepage() {
       </div>
 
       {/* Right Side */}
-      <div>
+      <div className=" w-[500px] md:w-full">
         {/* Card 1 */}
-        <div className="w-[10px] md:w-[895px] h-[468px] mt-[38px] bg-white rounded-[12px]">
+        <div className="md:w-[895px] h-[468px] mt-[38px] bg-white rounded-[12px]">
           <p className="text-2xl font-medium text-black mt-6 ml-6">Profile</p>
           {/* input field */}
           <div class="flex items-start space-x-3 border-2 border-dotted border-[#A1A1A1] w-[400px] md:w-[847px] h-[95px] rounded-[13px] ml-11 md:ml-6 p-7 mt-6">
