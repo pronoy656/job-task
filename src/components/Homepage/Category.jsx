@@ -9,13 +9,7 @@ const lobsterTwo = Lobster_Two({
 
 export default function Category() {
   return (
-    <div
-      className="h-[422px]"
-      style={{
-        background:
-          "linear-gradient(to right, rgba(253, 237, 229, 0), rgba(254, 140, 79, 0.1), rgba(254, 140, 79, 0.2))",
-      }}
-    >
+    <div className="h-[422px]">
       <div className="max-w-7xl mx-auto mt-[65px] relative">
         <h1 className={`${lobsterTwo.className} text-[20px] font-400`}>
           category

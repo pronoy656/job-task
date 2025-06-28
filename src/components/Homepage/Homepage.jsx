@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import Category from "./Category";
 import Popularfood from "./Popularfood";
+import PopularResturant from "./PopularResturant";
 
 export default function Homepage() {
   return (
@@ -15,8 +16,16 @@ export default function Homepage() {
         <img className="w-[65px] h-[65px]" src="Ellipse 2872.png" alt="" />
       </div>
       <Banner />
-      <Category />
-      <Popularfood />
+      <div
+        style={{
+          background:
+            "linear-gradient(to right, rgba(253, 237, 229, 0), rgba(254, 140, 79, 0.1), rgba(254, 140, 79, 0.2))",
+        }}
+      >
+        <Category />
+        <Popularfood />
+        <PopularResturant />
+      </div>
     </div>
   );
 }
