@@ -18,7 +18,7 @@ export default function Profilepage() {
   return (
     <div className="flex space-x-[74px] mb-[224px]">
       {/* Mobile Topbar */}
-      <div className="md:hidden flex justify-between items-center px-4 py-4 bg-[#FF8D2F] w-full fixed top-0 left-0 z-50">
+      <div className="md:hidden flex justify-between items-center px-4 py-4 bg-[#FF8D2F] w-[429px] fixed top-0 left-0 z-50">
         <h1 className="text-white font-bold text-lg">Profile</h1>
         <button
           onClick={toggleSidebar}
@@ -111,7 +111,7 @@ export default function Profilepage() {
       {/* Right Side */}
       <div>
         {/* Card 1 */}
-        <div className="w-[895px] h-[468px] mt-[38px] bg-white rounded-[12px]">
+        <div className="w-[10px] md:w-[895px] h-[468px] mt-[38px] bg-white rounded-[12px]">
           <p className="text-2xl font-medium text-black mt-6 ml-6">Profile</p>
           {/* input field */}
           <div class="flex items-start space-x-3 border-2 border-dotted border-[#A1A1A1] w-[400px] md:w-[847px] h-[95px] rounded-[13px] ml-11 md:ml-6 p-7 mt-6">
