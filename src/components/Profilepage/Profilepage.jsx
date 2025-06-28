@@ -8,8 +8,8 @@ import { CiLogin } from "react-icons/ci";
 export default function Profilepage() {
   return (
     <div className="flex space-x-[74px] mb-[224px]">
-      <div className="w-[282px] h-[1076px] bg-white ml-[31px] mt-[38px]">
-        <div className="border h-[150px] bg-[#FF8D2F]"></div>
+      <div className="w-[282px] h-[1076px] bg-white rounded-[12px] ml-[31px] mt-[38px]">
+        <div className="h-[150px] bg-[#FF8D2F] rounded-[12px]"></div>
 
         <div className="flex justify-center mt-[-40px]">
           <img className="w-[100px] h-[100px]" src="p5.png.png" alt="" />
@@ -47,7 +47,7 @@ export default function Profilepage() {
       </div>
       <div>
         {/* Card 1 */}
-        <div className="w-[895px] h-[468px] mt-[38px] bg-white">
+        <div className="w-[895px] h-[468px] mt-[38px] bg-white rounded-[12px]">
           <p className="text-2xl font-medium text-black mt-6 ml-6">Profile</p>
           {/* input field */}
           <div class="flex items-start space-x-3 border-2 border-dotted border-[#A1A1A1] w-[847px] h-[95px] rounded-[13px] ml-6 p-7 mt-6">
@@ -86,7 +86,7 @@ export default function Profilepage() {
           </button>
         </div>
         {/* card 2 */}
-        <div className="w-[895px] h-[468px] mt-[38px] bg-white">
+        <div className="w-[895px] h-[468px] mt-[38px] bg-white rounded-[12px]">
           <p className="text-2xl font-medium text-black mt-6 ml-6">
             Change Password
           </p>
