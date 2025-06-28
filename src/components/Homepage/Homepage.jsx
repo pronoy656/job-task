@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Category from "./Category";
 import Popularfood from "./Popularfood";
 import PopularResturant from "./PopularResturant";
+import AppIntro from "./AppIntro";
 
 export default function Homepage() {
   return (
@@ -25,6 +26,7 @@ export default function Homepage() {
         <Category />
         <Popularfood />
         <PopularResturant />
+        <AppIntro />
       </div>
     </div>
   );
