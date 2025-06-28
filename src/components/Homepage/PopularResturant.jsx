@@ -36,12 +36,12 @@ export default function PopularResturant() {
           ].map((imgSrc, index) => (
             <div
               key={index}
-              className="w-full max-w-[290px] md:w-[290px] flex flex-col"
+              className="w-full max-w-[390px] md:w-[290px] flex flex-col"
             >
               <img
                 src={imgSrc}
                 alt=""
-                className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
+                className="md:w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               />
               <div className="w-full bg-[#FFFFFF] shadow-lg rounded-bl-2xl rounded-br-2xl">
                 <h1 className="text-[18px] font-medium mt-[15px] pl-[15px]">
