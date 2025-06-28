@@ -53,6 +53,32 @@ export default function AppIntro() {
         </div>
         {/* <div className="w-[637px] h-[90px] border  relative z-10"></div> */}
       </div>
+      <div className="max-w-7xl mx-auto -mt-5 -mb-16 relative z-10">
+        <div className="w-[637px] h-[90px] ml-[51px]">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-[40px] font-[700] text-white">100+</p>
+              <p className="text-[20px] font-[400] text-white">Food Menu</p>
+            </div>
+            <div>
+              <p className="text-[40px] font-[700] text-white">100+</p>
+              <p className="text-[20px] font-[400] text-white">Downloads</p>
+            </div>
+            <div>
+              <p className="text-[40px] font-[700] text-white">20+</p>
+              <p className="text-[20px] font-[400] text-white">
+                Positive reviews
+              </p>
+            </div>
+            <div>
+              <p className="text-[40px] font-[700] text-white">4.7</p>
+              <p className="text-[20px] font-[400] text-white">
+                Average Review
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
