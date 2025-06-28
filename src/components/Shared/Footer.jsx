@@ -61,7 +61,7 @@ export default function Footer() {
       </div>
       <div className="border-b-3 border-[#5C5C5C] mt-[84px]"></div>
       <p className="text-[#A5A5A5] text-base font-[400] text-center mt-6">
-        © 2024 Tweet. All rights reserved.
+        © 2029 Tweet. All rights reserved.
       </p>
     </div>
   );
