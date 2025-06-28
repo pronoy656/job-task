@@ -23,7 +23,7 @@ export default function Popularfood() {
           <h1 className="text-[28px] md:text-[40px] font-600">
             Popular <span className="text-[#ED6923]">Food Near me</span>
           </h1>
-          <button className="w-full md:w-[172px] h-[48px] border border-[#ED6923] rounded-[8px] text-[18px] md:text-[20px] font-[600] text-[#ED6923] mt-4 md:mt-0">
+          <button className="w-[120px] md:w-[172px] h-[48px] border border-[#ED6923] rounded-[8px] text-[18px] md:text-[20px] font-[600] text-[#ED6923] mt-4 md:mt-0">
             View All
           </button>
         </div>
