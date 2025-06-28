@@ -5,14 +5,14 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const lobsterTwo = Lobster_Two({
   subsets: ["latin"],
-  weight: ["400", "700"], // choose weight(s) you need
-  style: ["normal", "italic"], // optional: if you want italic too
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
 });
 
 export default function Category() {
   return (
     <div className="h-auto md:h-[422px]">
-      <div className="max-w-7xl mx-auto mt-[65px] relative px-4 md:px-0">
+      <div className="max-w-7xl mx-auto mt-[700px] md:mt-[65px] relative px-4 md:px-0">
         <h1
           className={`${lobsterTwo.className} text-[16px] md:text-[20px] font-400`}
         >
