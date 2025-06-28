@@ -11,30 +11,34 @@ const lobsterTwo = Lobster_Two({
 
 export default function Popularfood() {
   return (
-    <div className="h-[620px] ">
-      <div className="max-w-7xl mx-auto mt-[65px] relative">
-        <h1 className={`${lobsterTwo.className} text-[20px] font-400`}>
+    <div className="h-auto md:h-[620px]">
+      <div className="max-w-7xl mx-auto mt-[65px] relative px-4 md:px-0">
+        <h1
+          className={`${lobsterTwo.className} text-[16px] md:text-[20px] font-400`}
+        >
           Popular Food
         </h1>
-        <div className="flex justify-between items-center">
-          <h1 className="text-[40px] font-600">
+
+        <div className="flex flex-wrap md:flex-nowrap justify-between items-center gap-4 md:gap-0">
+          <h1 className="text-[28px] md:text-[40px] font-600">
             Popular <span className="text-[#ED6923]">Food Near me</span>
           </h1>
-          <button className="w-[172px] h-[48px] border border-[#ED6923] rounded-[8px] text-[20px] font-[600] text-[#ED6923]">
+          <button className="w-full md:w-[172px] h-[48px] border border-[#ED6923] rounded-[8px] text-[18px] md:text-[20px] font-[600] text-[#ED6923] mt-4 md:mt-0">
             View All
           </button>
         </div>
-        <div className="flex justify-between  mt-14">
-          {/* DOnuts */}
-          <div>
+
+        <div className="flex flex-wrap md:flex-nowrap justify-between mt-14 gap-6">
+          {/* Donuts */}
+          <div className="w-full md:w-auto max-w-[320px] mx-auto md:mx-0">
             <img
-              className="w-[290px] h-[175px] rounded-tl-2xl rounded-tr-2xl"
+              className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               src="image-resize (6).png"
               alt=""
             />
-            <div className="w-[290px] h-[137.05px] bg-[#FFFFFF] shadow-lg rounded-bl-2xl rounded-br-2xl relative">
+            <div className="w-full bg-[#FFFFFF] shadow-lg rounded-bl-2xl rounded-br-2xl relative">
               <div className="flex justify-between items-center p-4">
-                <h1 className="w-[178.89px] h-[46px]  text-[18px] font-medium">
+                <h1 className="w-[178.89px] text-[16px] md:text-[18px] font-medium">
                   Burger with <br /> Emmental Cheese
                 </h1>
                 <div>
@@ -50,22 +54,22 @@ export default function Popularfood() {
                 <div className="w-[15px] h-[15px]">
                   <BsShop />
                 </div>
-                <h1 className="text-[16px] font-[400] text-[#262626]">
+                <h1 className="text-[14px] md:text-[16px] font-[400] text-[#262626]">
                   Burger King
                 </h1>
               </div>
-              <div className="flex justify-between items-center pl-4 pr-4">
-                <div className="flex space-x-5  ">
-                  <div className="flex space-x-4  ">
-                    <div className="w-[3px] h-[3px]">
+              <div className="flex justify-between items-center pl-4 pr-4 pb-4">
+                <div className="flex space-x-5">
+                  <div className="flex space-x-2">
+                    <div className="w-[12px] h-[12px]">
                       <CiClock2 />
                     </div>
                     <h1 className="text-[12px] font-[500] text-[#5C5C5C]">
                       30 min
                     </h1>
                   </div>
-                  <div className="flex space-x-4  ">
-                    <div className="w-[3px] h-[3px]">
+                  <div className="flex space-x-2">
+                    <div className="w-[12px] h-[12px]">
                       <IoMdBicycle />
                     </div>
                     <h1 className="text-[12px] font-[500] text-[#5C5C5C]">
@@ -83,16 +87,18 @@ export default function Popularfood() {
               </div>
             </div>
           </div>
-          {/* DOnuts */}
-          <div>
+
+          {/* Repeat same pattern for each card */}
+          {/* Tandoori Chicken */}
+          <div className="w-full md:w-auto max-w-[320px] mx-auto md:mx-0">
             <img
-              className="w-[282px] h-[175px] rounded-tl-2xl rounded-tr-2xl"
+              className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               src="image-resize.png"
               alt=""
             />
-            <div className="w-[282px] h-[137.05px] bg-[#FFFFFF] shadow-lg  rounded-bl-2xl rounded-br-2xl relative">
+            <div className="w-full bg-[#FFFFFF] shadow-lg rounded-bl-2xl rounded-br-2xl relative">
               <div className="flex justify-between items-center p-4">
-                <h1 className="w-[178.89px] text-[18px] font-medium">
+                <h1 className="w-[178.89px] text-[16px] md:text-[18px] font-medium">
                   Tandoori Chicken
                 </h1>
                 <div>
@@ -108,22 +114,22 @@ export default function Popularfood() {
                 <div className="w-[15px] h-[15px]">
                   <BsShop />
                 </div>
-                <h1 className="text-[16px] font-[400] text-[#262626]">
+                <h1 className="text-[14px] md:text-[16px] font-[400] text-[#262626]">
                   Burger King
                 </h1>
               </div>
-              <div className="flex justify-between items-center pl-4 pr-4">
-                <div className="flex space-x-5  ">
-                  <div className="flex space-x-4  ">
-                    <div className="w-[3px] h-[3px]">
+              <div className="flex justify-between items-center pl-4 pr-4 pb-4">
+                <div className="flex space-x-5">
+                  <div className="flex space-x-2">
+                    <div className="w-[12px] h-[12px]">
                       <CiClock2 />
                     </div>
                     <h1 className="text-[12px] font-[500] text-[#5C5C5C]">
                       30 min
                     </h1>
                   </div>
-                  <div className="flex space-x-4  ">
-                    <div className="w-[3px] h-[3px]">
+                  <div className="flex space-x-2">
+                    <div className="w-[12px] h-[12px]">
                       <IoMdBicycle />
                     </div>
                     <h1 className="text-[12px] font-[500] text-[#5C5C5C]">
@@ -141,16 +147,17 @@ export default function Popularfood() {
               </div>
             </div>
           </div>
-          {/* DOnuts */}
-          <div>
+
+          {/* Döner Kebab */}
+          <div className="w-full md:w-auto max-w-[320px] mx-auto md:mx-0">
             <img
-              className="w-[282px] h-[175px] rounded-tl-2xl rounded-tr-2xl"
+              className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               src="image-resize (1).png"
               alt=""
             />
-            <div className="w-[282px] h-[137.05px] bg-[#FFFFFF] shadow-lg  rounded-bl-2xl rounded-br-2xl relative">
-              <div className="flex justify-between items-center  p-4">
-                <h1 className="w-[178.89px]  text-[18px] font-medium">
+            <div className="w-full bg-[#FFFFFF] shadow-lg rounded-bl-2xl rounded-br-2xl relative">
+              <div className="flex justify-between items-center p-4">
+                <h1 className="w-[178.89px] text-[16px] md:text-[18px] font-medium">
                   Döner Kebab
                 </h1>
                 <div>
@@ -166,22 +173,22 @@ export default function Popularfood() {
                 <div className="w-[15px] h-[15px]">
                   <BsShop />
                 </div>
-                <h1 className="text-[16px] font-[400] text-[#262626]">
+                <h1 className="text-[14px] md:text-[16px] font-[400] text-[#262626]">
                   Burger King
                 </h1>
               </div>
-              <div className="flex justify-between items-center pl-4 pr-4">
-                <div className="flex space-x-5  ">
-                  <div className="flex space-x-4  ">
-                    <div className="w-[3px] h-[3px]">
+              <div className="flex justify-between items-center pl-4 pr-4 pb-4">
+                <div className="flex space-x-5">
+                  <div className="flex space-x-2">
+                    <div className="w-[12px] h-[12px]">
                       <CiClock2 />
                     </div>
                     <h1 className="text-[12px] font-[500] text-[#5C5C5C]">
                       30 min
                     </h1>
                   </div>
-                  <div className="flex space-x-4  ">
-                    <div className="w-[3px] h-[3px]">
+                  <div className="flex space-x-2">
+                    <div className="w-[12px] h-[12px]">
                       <IoMdBicycle />
                     </div>
                     <h1 className="text-[12px] font-[500] text-[#5C5C5C]">
@@ -199,16 +206,17 @@ export default function Popularfood() {
               </div>
             </div>
           </div>
-          {/* DOnuts */}
-          <div>
+
+          {/* Pepperoni Pizza */}
+          <div className="w-full md:w-auto max-w-[320px] mx-auto md:mx-0">
             <img
-              className="w-[282px] h-[175px] rounded-tl-2xl rounded-tr-2xl"
+              className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               src="image-resize (2).png"
               alt=""
             />
-            <div className="w-[282px] h-[137.05px] bg-[#FFFFFF] shadow-lg  rounded-bl-2xl rounded-br-2xl relative">
+            <div className="w-full bg-[#FFFFFF] shadow-lg rounded-bl-2xl rounded-br-2xl relative">
               <div className="flex justify-between items-center p-4">
-                <h1 className="w-[178.89px] h-[46px] text-[18px] font-medium">
+                <h1 className="w-[178.89px] text-[16px] md:text-[18px] font-medium">
                   Pepperoni Pizza <br /> Slice
                 </h1>
                 <div>
@@ -224,22 +232,22 @@ export default function Popularfood() {
                 <div className="w-[15px] h-[15px]">
                   <BsShop />
                 </div>
-                <h1 className="text-[16px] font-[400] text-[#262626]">
+                <h1 className="text-[14px] md:text-[16px] font-[400] text-[#262626]">
                   Burger King
                 </h1>
               </div>
-              <div className="flex justify-between items-center pl-4 pr-4">
-                <div className="flex space-x-5  ">
-                  <div className="flex space-x-4  ">
-                    <div className="w-[3px] h-[3px]">
+              <div className="flex justify-between items-center pl-4 pr-4 pb-4">
+                <div className="flex space-x-5">
+                  <div className="flex space-x-2">
+                    <div className="w-[12px] h-[12px]">
                       <CiClock2 />
                     </div>
                     <h1 className="text-[12px] font-[500] text-[#5C5C5C]">
                       30 min
                     </h1>
                   </div>
-                  <div className="flex space-x-4  ">
-                    <div className="w-[3px] h-[3px]">
+                  <div className="flex space-x-2">
+                    <div className="w-[12px] h-[12px]">
                       <IoMdBicycle />
                     </div>
                     <h1 className="text-[12px] font-[500] text-[#5C5C5C]">
@@ -258,14 +266,16 @@ export default function Popularfood() {
             </div>
           </div>
         </div>
-        <div className="absolute -left-20 top-[270px]">
+
+        {/* Hide arrows on mobile */}
+        <div className="absolute -left-4 md:-left-20 top-[270px] hidden md:block">
           <img
             className="w-[44px] h-[44px] bg-white shadow-lg rounded-full"
             src="SVG.png"
             alt=""
           />
         </div>
-        <div className="absolute -right-20 top-[270px]">
+        <div className="absolute -right-4 md:-right-20 top-[270px] hidden md:block">
           <img
             className="w-[44px] h-[44px] bg-white shadow-lg rounded-full p-2"
             src="Vector (2).png"
