@@ -55,7 +55,7 @@ export default function AppIntro() {
         </div>
 
         {/* Background Shape */}
-        <div className="absolute -bottom-20 md:-bottom-32 w-full flex justify-center md:justify-start">
+        <div className="absolute -bottom-95 md:-bottom-32 w-full flex justify-center md:justify-start">
           <img
             className="h-[200px] md:h-[298px]"
             src="Rectangle 8769.png"
@@ -65,38 +65,38 @@ export default function AppIntro() {
       </div>
 
       {/* Statistics */}
-      <div className="max-w-7xl mx-auto mt-8 md:-mt-5 md:-mb-16 relative z-10 px-4 md:px-0">
+      <div className="max-w-7xl mx-auto mt-12 md:-mt-5 md:-mb-16 relative z-10 px-4 md:px-0">
         <div className="w-full md:w-[637px] md:ml-[51px] bg-[#ED6923] rounded-xl py-6 md:py-0">
           <div className="flex flex-wrap md:flex-nowrap justify-around md:justify-between text-center md:text-left">
             <div className="mb-4 md:mb-0">
-              <p className="text-[32px] md:text-[40px] font-[700] text-white">
+              <p className="text-[22px] md:text-[40px] font-[700] text-white">
                 100+
               </p>
-              <p className="text-[16px] md:text-[20px] font-[400] text-white">
+              <p className="text-[10px] md:text-[20px] font-[400] text-white">
                 Food Menu
               </p>
             </div>
             <div className="mb-4 md:mb-0">
-              <p className="text-[32px] md:text-[40px] font-[700] text-white">
+              <p className="text-[22px] md:text-[40px] font-[700] text-white">
                 100+
               </p>
-              <p className="text-[16px] md:text-[20px] font-[400] text-white">
+              <p className="text-[10px] md:text-[20px] font-[400] text-white">
                 Downloads
               </p>
             </div>
             <div className="mb-4 md:mb-0">
-              <p className="text-[32px] md:text-[40px] font-[700] text-white">
+              <p className="text-[22px] md:text-[40px] font-[700] text-white">
                 20+
               </p>
-              <p className="text-[16px] md:text-[20px] font-[400] text-white">
+              <p className="text-[10px] md:text-[20px] font-[400] text-white">
                 Positive reviews
               </p>
             </div>
             <div>
-              <p className="text-[32px] md:text-[40px] font-[700] text-white">
+              <p className="text-[22px] md:text-[40px] font-[700] text-white">
                 4.7
               </p>
-              <p className="text-[16px] md:text-[20px] font-[400] text-white">
+              <p className="text-[10px] md:text-[20px] font-[400] text-white">
                 Average Review
               </p>
             </div>

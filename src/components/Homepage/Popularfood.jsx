@@ -30,7 +30,7 @@ export default function Popularfood() {
 
         <div className="flex flex-wrap md:flex-nowrap justify-between mt-14 gap-6">
           {/* Donuts */}
-          <div className="w-full md:w-auto max-w-[320px] mx-auto md:mx-0">
+          <div className="w-full md:w-auto max-w-[420px] mx-auto md:mx-0">
             <img
               className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               src="image-resize (6).png"
@@ -90,7 +90,7 @@ export default function Popularfood() {
 
           {/* Repeat same pattern for each card */}
           {/* Tandoori Chicken */}
-          <div className="w-full md:w-auto max-w-[320px] mx-auto md:mx-0">
+          <div className="w-full md:w-auto max-w-[420px] mx-auto md:mx-0">
             <img
               className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               src="image-resize.png"
@@ -149,7 +149,7 @@ export default function Popularfood() {
           </div>
 
           {/* Döner Kebab */}
-          <div className="w-full md:w-auto max-w-[320px] mx-auto md:mx-0">
+          <div className="w-full md:w-auto max-w-[420px] mx-auto md:mx-0">
             <img
               className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               src="image-resize (1).png"
@@ -208,7 +208,7 @@ export default function Popularfood() {
           </div>
 
           {/* Pepperoni Pizza */}
-          <div className="w-full md:w-auto max-w-[320px] mx-auto md:mx-0">
+          <div className="w-full md:w-auto max-w-[420px] mx-auto md:mx-0">
             <img
               className="w-full h-[175px] rounded-tl-2xl rounded-tr-2xl object-cover"
               src="image-resize (2).png"
